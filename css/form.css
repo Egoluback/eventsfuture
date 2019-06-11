@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+input[type = "number"], input[type = "text"]{
+    display: block;
+    -webkit-appereance: none;
+    border: 1px solid #827a7a;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2em;
+    width: 95%;
+    padding: 2%;
+    outline: none;
+    transition: all .2s linear;
+    margin: 5%;
+}
+
+#app{
+    text-align: center;
+}
+
+a{  
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: rgb(56, 56, 230);
+}
+
+a:hover{
+    text-decoration: underline rgb(56, 56, 230);
+}
+
+input[type = "submit"]{
+    display: block;
+    -webkit-appereance: none;
+    border: none;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2em;
+    padding: 2%;
+    text-transform: uppercase;
+    background: rgb(148, 147, 147);
+    /* background: rgb(175, 36, 36); */
+    color: white;
+    margin: 5%;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type = "submit"]:hover{
+    background: rgb(112, 110, 110);
+    /* background: rgb(139, 33, 33); */
+}
+
+input[type = "number"]:focus, input[type = "text"]:focus{
+    box-shadow: inset 1px 1px 2px -0.5px gray;
+}
+  
+#info{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+#info-num-interval{
+    font-size: 1em;
+    display: inline-block;
+    min-width: 2%;
+    max-width: 5%;
+}

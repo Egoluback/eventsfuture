@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+input[type = "number"]{
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    -webkit-appereance: none;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 10em;
+    width: 60%;
+    text-align: center;
+    outline: none;
+    transition: all .2s linear;
+}
+  
+input[type = "number"]:focus{
+    border: 1px solid #827a7a;
+    box-shadow: inset 1px 1px 2px -0.5px gray;
+}
+  
+input[type = "number"]::-webkit-inner-spin-button,
+input[type = "number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+  
+#info{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+#info-num-interval{
+    font-size: 1em;
+    display: inline-block;
+    min-width: 2%;
+    max-width: 5%;
+}
+
+a{  
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: rgb(56, 56, 230);
+}
+
+a:hover{
+    text-decoration: underline rgb(56, 56, 230);
+}
+
+#chron-events{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4em;
+}
+
+#chron-events-title{
+    font-size: 2em;
+    text-align: center;
+}
