@@ -61,3 +61,7 @@ a:hover{
     font-size: 2em;
     text-align: center;
 }
+
+#link-container{
+    font-size: 0.6em;
+}
